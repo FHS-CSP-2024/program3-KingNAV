@@ -7,8 +7,36 @@
 #* You will know what kind of data can be stored in variables
 #* You will understand the difference between strings, integers and floating point numbers
 
+name = "BOB"
+Name = "thiurn"
+print(Name + name)
+
+myString = "something"
+myINT = 100
+myFloat = 2.5
+print(myINT/2)
+myNewInt = "100"
+print(int(myNewInt)/2)
+
+num1 = input("Please enter a number")
+
+print(int(num1) + int(num1))
+print("Myint = " + str(myINT))
+
+thing = 500/6
+
+print("My result is " + str(thing))
+print("My result is ", thing)
+print(f"The result is {thing}")
 
 
+print("First line\nSecond line\nThird line")
+print("List header")
+print("\t* Item1")
+print("\t* Item2")
+print("\t* Item3\n\t* Item4\n\t* Item5")
+
+print("C:\\User\\mrJohnson\\Document\\gdgvdvgdr...")
 ## Live Demo ##
 #
 # Casing
